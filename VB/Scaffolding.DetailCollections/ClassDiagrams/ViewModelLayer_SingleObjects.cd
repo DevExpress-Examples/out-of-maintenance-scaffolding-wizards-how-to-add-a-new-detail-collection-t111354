@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Scaffolding.DetailCollections.Common.ViewModel.SingleObjectViewModel&lt;TEntity, TPrimaryKey, TUnitOfWork&gt;">
+    <Position X="7" Y="0.5" Width="3.75" />
+    <Members>
+      <Method Name="SingleObjectViewModel" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\ViewModel\SingleObjectViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scaffolding.DetailCollections.Common.ViewModel.SingleObjectViewModelBase&lt;TEntity, TPrimaryKey, TUnitOfWork&gt;">
+    <Position X="2" Y="0.5" Width="4.5" />
+    <Members>
+      <Method Name="CanDelete" Hidden="true" />
+      <Method Name="CanSave" Hidden="true" />
+      <Method Name="CreateEntity" Hidden="true" />
+      <Method Name="CreateLookUpCollectionViewModel" Hidden="true" />
+      <Method Name="CreateNavigationPropertyInitializer" Hidden="true" />
+      <Method Name="CreateReadOnlyLookUpCollectionViewModel" Hidden="true" />
+      <Method Name="DestroyDocument" Hidden="true" />
+      <Property Name="DocumentOwner" Hidden="true" />
+      <Field Name="getEntityDisplayNameFunc" Hidden="true" />
+      <Method Name="GetLookUpEntities" Hidden="true" />
+      <Method Name="GetPrimaryKey" Hidden="true" />
+      <Field Name="getRepositoryFunc" Hidden="true" />
+      <Method Name="GetState" Hidden="true" />
+      <Method Name="GetTitle" Hidden="true" />
+      <Method Name="GetTitleForNewEntity" Hidden="true" />
+      <Method Name="HasValidationErrors" Hidden="true" />
+      <Property Name="IDocumentContent.DocumentOwner" Hidden="true" />
+      <Method Name="IDocumentContent.OnClose" Hidden="true" />
+      <Method Name="IDocumentContent.OnDestroy" Hidden="true" />
+      <Property Name="IDocumentContent.Title" Hidden="true" />
+      <Method Name="InitializeEntity" Hidden="true" />
+      <Property Name="ISingleObjectViewModel&lt;TEntity, TPrimaryKey&gt;.Entity" Hidden="true" />
+      <Property Name="ISingleObjectViewModel&lt;TEntity, TPrimaryKey&gt;.PrimaryKey" Hidden="true" />
+      <Method Name="IsNew" Hidden="true" />
+      <Property Name="ISupportParameter.Parameter" Hidden="true" />
+      <Property Name="MessageBoxService" Hidden="true" />
+      <Method Name="NeedSave" Hidden="true" />
+      <Field Name="NotSetParameter" Hidden="true" />
+      <Method Name="OnAfterEntitySaved" Hidden="true" />
+      <Method Name="OnBeforeEntityDeleted" Hidden="true" />
+      <Method Name="OnDestroy" Hidden="true" />
+      <Method Name="OnEntityChanged" Hidden="true" />
+      <Method Name="OnEntityMessage" Hidden="true" />
+      <Method Name="OnInitializeInRuntime" Hidden="true" />
+      <Method Name="OnParameterChanged" Hidden="true" />
+      <Field Name="parameter" Hidden="true" />
+      <Property Name="Parameter" Hidden="true" />
+      <Method Name="RefreshLookUpCollections" Hidden="true" />
+      <Method Name="Reload" Hidden="true" />
+      <Method Name="Remove" Hidden="true" />
+      <Property Name="Repository" Hidden="true" />
+      <Method Name="SingleObjectViewModelBase" Hidden="true" />
+      <Field Name="title" Hidden="true" />
+      <Property Name="Title" Hidden="true" />
+      <Method Name="TryClose" Hidden="true" />
+      <Property Name="UnitOfWork" Hidden="true" />
+      <Property Name="UnitOfWorkFactory" Hidden="true" />
+      <Method Name="Update" Hidden="true" />
+      <Method Name="UpdateCommands" Hidden="true" />
+      <Method Name="UpdateTitle" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>0kYBaM4IRAAAAGBAAAoEBAACAEGQhQwAGEOhAgCABAA=</HashCode>
+      <FileName>Common\ViewModel\SingleObjectViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Scaffolding.DetailCollections.ViewModels.CourseViewModel">
+    <Position X="2" Y="2.75" Width="4.5" />
+    <Members>
+      <Method Name="CourseViewModel" Hidden="true" />
+      <Method Name="Create" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\CourseViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scaffolding.DetailCollections.ViewModels.DepartmentViewModel">
+    <Position X="2" Y="5.75" Width="4.5" />
+    <Members>
+      <Method Name="Create" Hidden="true" />
+      <Method Name="DepartmentViewModel" Hidden="true" />
+      <Method Name="RefreshLookUpCollections" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAACAABAAA=</HashCode>
+      <FileName>ViewModels\DepartmentViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scaffolding.DetailCollections.ViewModels.EmployeeViewModel">
+    <Position X="2" Y="4.25" Width="4.5" />
+    <Members>
+      <Method Name="Create" Hidden="true" />
+      <Method Name="EmployeeViewModel" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\EmployeeViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

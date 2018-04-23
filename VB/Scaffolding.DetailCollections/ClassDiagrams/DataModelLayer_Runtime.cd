@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Scaffolding.DetailCollections.Common.DataModel.EntityFramework.DbRepository&lt;TEntity, TPrimaryKey, TDbContext&gt;" Collapsed="true">
+    <Position X="1.5" Y="2.25" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAQAAmAAEAAgIAAAAAAAAAABAAAAgAYAAAAAIDAAACQ=</HashCode>
+      <FileName>Common\DataModel\EntityFramework\DbRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Right" Position="0.123" />
+  </Class>
+  <Class Name="Scaffolding.DetailCollections.Common.DataModel.EntityFramework.DbReadOnlyRepository&lt;TEntity, TDbContext&gt;" Collapsed="true">
+    <Position X="1.5" Y="1" Width="4" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAABgAAAQAAAAAAAACAIAAIAAAACAAAAAAAAQA=</HashCode>
+      <FileName>Common\DataModel\EntityFramework\DbReadOnlyRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Right" Position="0.1" />
+  </Class>
+  <Class Name="Scaffolding.DetailCollections.Common.DataModel.EntityFramework.DbUnitOfWork&lt;TContext&gt;" Collapsed="true">
+    <Position X="7.75" Y="1" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AQACAIAEAgAAAAAAAAgAAAAgAgAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Common\DataModel\EntityFramework\DbUnitOfWork.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Right" Position="0.1" />
+  </Class>
+  <Class Name="Scaffolding.DetailCollections.DepartmentContextDataModel.DepartmentContextUnitOfWork" Collapsed="true">
+    <Position X="7.75" Y="2.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAEAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>DepartmentContextDataModel\DepartmentContextUnitOfWork.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Right" Position="0.164" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

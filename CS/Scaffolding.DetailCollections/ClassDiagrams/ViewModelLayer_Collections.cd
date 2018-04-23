@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Scaffolding.DetailCollections.Common.ViewModel.ReadOnlyCollectionViewModel&lt;TEntity, TUnitOfWork&gt;" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="4.25" />
+    <Members>
+      <Method Name="ReadOnlyCollectionViewModel" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\ViewModel\ReadOnlyCollectionViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scaffolding.DetailCollections.Common.ViewModel.ReadOnlyCollectionViewModelBase&lt;TEntity, TUnitOfWork&gt;">
+    <Position X="2.75" Y="0.5" Width="4" />
+    <Members>
+      <Field Name="entities" Hidden="true" />
+      <Method Name="GetEntities" Hidden="true" />
+      <Method Name="GetFilteredQueryableEntities" Hidden="true" />
+      <Method Name="GetRepository" Hidden="true" />
+      <Field Name="getRepositoryFunc" Hidden="true" />
+      <Method Name="OnFilterExpressionChanged" Hidden="true" />
+      <Method Name="OnInitializeInRuntime" Hidden="true" />
+      <Method Name="OnSelectedEntityChanged" Hidden="true" />
+      <Method Name="ReadOnlyCollectionViewModelBase" Hidden="true" />
+      <Field Name="repository" Hidden="true" />
+      <Property Name="Repository" Hidden="true" />
+      <Field Name="unitOfWorkFactory" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AACCAAIIAABCAYBAAAAAAACAAAAAAQAAAUEAAAAAAAA=</HashCode>
+      <FileName>Common\ViewModel\ReadOnlyCollectionViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scaffolding.DetailCollections.Common.ViewModel.CollectionViewModel&lt;TEntity, TPrimaryKey, TUnitOfWork&gt;" Collapsed="true">
+    <Position X="7.5" Y="2.75" Width="4.25" />
+    <Members>
+      <Method Name="CollectionViewModel" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\ViewModel\CollectionViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scaffolding.DetailCollections.Common.ViewModel.CollectionViewModelBase&lt;TEntity, TPrimaryKey, TUnitOfWork&gt;">
+    <Position X="2.75" Y="2.75" Width="4" />
+    <Members>
+      <Method Name="CanDelete" Hidden="true" />
+      <Method Name="CanEdit" Hidden="true" />
+      <Method Name="CanSave" Hidden="true" />
+      <Method Name="CollectionViewModelBase" Hidden="true" />
+      <Method Name="CreateDocument" Hidden="true" />
+      <Method Name="DestroyDocument" Hidden="true" />
+      <Property Name="DocumentManagerService" Hidden="true" />
+      <Property Name="DocumentOwner" Hidden="true" />
+      <Method Name="FindEntity" Hidden="true" />
+      <Method Name="FindEntityDocument" Hidden="true" />
+      <Method Name="FindNewEntity" Hidden="true" />
+      <Method Name="GetPrimaryKey" Hidden="true" />
+      <Property Name="IDocumentContent.DocumentOwner" Hidden="true" />
+      <Method Name="IDocumentContent.OnClose" Hidden="true" />
+      <Method Name="IDocumentContent.OnDestroy" Hidden="true" />
+      <Property Name="IDocumentContent.Title" Hidden="true" />
+      <Property Name="MessageBoxService" Hidden="true" />
+      <Method Name="New" Hidden="true" />
+      <Field Name="newEntityInitializerFactory" Hidden="true" />
+      <Method Name="OnDestroy" Hidden="true" />
+      <Method Name="OnEntityAdded" Hidden="true" />
+      <Method Name="OnEntityChanged" Hidden="true" />
+      <Method Name="OnEntityDeleted" Hidden="true" />
+      <Method Name="OnInitializeInRuntime" Hidden="true" />
+      <Method Name="OnMessage" Hidden="true" />
+      <Method Name="OnSelectedEntityChanged" Hidden="true" />
+      <Method Name="Refresh" Hidden="true" />
+      <Property Name="Repository" Hidden="true" />
+      <Method Name="ShowDocument" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>QkABAMIIBABAACAAAAIAQAKCAAEBEAACAAKhAIAEASA=</HashCode>
+      <FileName>Common\ViewModel\CollectionViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Right" Position="0.1" Collapsed="true" />
+  </Class>
+  <Class Name="Scaffolding.DetailCollections.ViewModels.CourseCollectionViewModel" Collapsed="true">
+    <Position X="2.75" Y="6.25" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\CourseCollectionViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scaffolding.DetailCollections.ViewModels.DepartmentCollectionViewModel" Collapsed="true">
+    <Position X="2.75" Y="7.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\DepartmentCollectionViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scaffolding.DetailCollections.ViewModels.EmployeeCollectionViewModel" Collapsed="true">
+    <Position X="2.75" Y="5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\EmployeeCollectionViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
