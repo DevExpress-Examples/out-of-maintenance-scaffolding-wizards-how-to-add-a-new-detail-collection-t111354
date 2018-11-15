@@ -1,3 +1,14 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Course.cs](./CS/Scaffolding.CodeFirst/Data/Course.cs) (VB: [Course.vb](./VB/Scaffolding.CodeFirst/Data/Course.vb))
+* [Department.cs](./CS/Scaffolding.CodeFirst/Data/Department.cs) (VB: [DepartmentContext.vb](./VB/Scaffolding.CodeFirst/Data/DepartmentContext.vb))
+* [DepartmentContext.cs](./CS/Scaffolding.CodeFirst/Data/DepartmentContext.cs) (VB: [DepartmentContext.vb](./VB/Scaffolding.CodeFirst/Data/DepartmentContext.vb))
+* [DepartmentContextInitializer.cs](./CS/Scaffolding.CodeFirst/Data/DepartmentContextInitializer.cs) (VB: [DepartmentContextInitializer.vb](./VB/Scaffolding.CodeFirst/Data/DepartmentContextInitializer.vb))
+* [Employee.cs](./CS/Scaffolding.CodeFirst/Data/Employee.cs) (VB: [Employee.vb](./VB/Scaffolding.CodeFirst/Data/Employee.vb))
+* [DepartmentContextViewModel.cs](./CS/Scaffolding.CodeFirst/ViewModels/DepartmentContextViewModel.cs) (VB: [DepartmentContextViewModel.vb](./VB/Scaffolding.CodeFirst/ViewModels/DepartmentContextViewModel.vb))
+* **[DepartmentContextView.xaml](./CS/Scaffolding.CodeFirst/Views/DepartmentContextView.xaml) (VB: [DepartmentContextView.xaml](./VB/Scaffolding.CodeFirst/Views/DepartmentContextView.xaml))**
+<!-- default file list end -->
 # Scaffolding Wizards - How to add a new detail collection
 
 
